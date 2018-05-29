@@ -31,3 +31,24 @@ while should_continue:
 	else:
 		continue
 ignore1 = input("")
+print("Marcus's part: ")
+
+import random
+while True:
+    word = input("What word do you want to meme? Type 'cancel' to stop the code: ").lower()
+
+    if word == 'cancel':
+        break
+    else:
+        y = []
+        for i in word:
+            num = random.randint(0,1)
+            if num == 0:
+                y.append(i.swapcase())
+            else:
+                y.append(i)
+        word = ''
+        for i in y:
+            word = word + str(i)
+        print(word)
+		
