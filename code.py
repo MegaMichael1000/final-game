@@ -2,7 +2,7 @@ names = {
 'jaden' : "I am awesome",
 'marcus' : "I have a slow car",
 'jesse' : "I like eating jaden's snacks",
-'michael' : "I can easily build and take apart computers"
+'michael' : "I can burp"
 }
 print("Jaden's Code!:")
 name = input("Enter name:" )
