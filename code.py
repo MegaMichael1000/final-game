@@ -56,4 +56,19 @@ while True:
 =======
 
 part("Part 3: Michael!")
+<<<<<<< HEAD
 >>>>>>> 58d12296c884aba07e3f5edeeff9e203c2b3b670
+=======
+
+should_continue = True
+while should_continue:
+	system = input("PC or Console? ")
+	if system.lower() == 'pc':
+		print("May our framerates be high and our temperatures low!")
+		should_continue = False
+	elif system.lower() == 'console':
+		print("But PC has better graphics and steam sales!")
+		should_continue = False
+	else:
+		continue
+>>>>>>> ce49c79a4fb1ed4145e82eec10db61c8b39ef8c7
