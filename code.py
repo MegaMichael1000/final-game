@@ -31,6 +31,7 @@ while should_continue:
 	else:
 		continue
 ignore1 = input("")
+<<<<<<< HEAD
 print("Marcus's part: ")
 
 import random
@@ -52,3 +53,7 @@ while True:
             word = word + str(i)
         print(word)
 		
+=======
+
+part("Part 3: Michael!")
+>>>>>>> 58d12296c884aba07e3f5edeeff9e203c2b3b670
