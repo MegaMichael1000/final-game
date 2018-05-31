@@ -33,3 +33,15 @@ while should_continue:
 ignore1 = input("")
 
 part("Part 3: Michael!")
+
+should_continue = True
+while should_continue:
+	system = input("PC or Console? ")
+	if system.lower() == 'pc':
+		print("May our framerates be high and our temperatures low!")
+		should_continue = False
+	elif system.lower() == 'console':
+		print("But PC has better graphics and steam sales!")
+		should_continue = False
+	else:
+		continue
