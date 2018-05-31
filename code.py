@@ -31,8 +31,30 @@ while should_continue:
 	else:
 		continue
 ignore1 = input("")
+<<<<<<< HEAD
+print("Marcus's part: ")
 
+import random
+while True:
+    word = input("What word do you want to meme? Type 'cancel' to stop the code: ").lower()
+
+    if word == 'cancel':
+        break
+    else:
+        y = []
+        for i in word:
+            num = random.randint(0,1)
+            if num == 0:
+                y.append(i.swapcase())
+            else:
+                y.append(i)
+        word = ''
+        for i in y:
+            word = word + str(i)
+        print(word)
+		
 print("Part 3: Michael!")
+
 
 should_continue = True
 while should_continue:
@@ -45,3 +67,7 @@ while should_continue:
 		should_continue = False
 	else:
 		continue
+<<<<<<< HEAD
+=======
+>>>>>>> ce49c79a4fb1ed4145e82eec10db61c8b39ef8c7
+>>>>>>> dfabed5a38d03be15aff0d30872cd321634e7efa
